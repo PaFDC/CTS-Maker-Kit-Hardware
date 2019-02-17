@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -166,30 +166,14 @@
 <wire x1="2.54" y1="20.32" x2="0" y2="17.78" width="0" layer="20" curve="90"/>
 <wire x1="0" y1="17.78" x2="0" y2="2.54" width="0" layer="20"/>
 <wire x1="0" y1="2.54" x2="2.54" y2="0" width="0" layer="20" curve="90"/>
-<text x="42.672" y="15.748" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="center-left">SDA</text>
-<text x="41.148" y="4.826" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="center-left">SDA</text>
-<text x="39.878" y="4.826" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="center-left">SCL</text>
-<text x="43.942" y="15.748" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="center-left">SCL</text>
-<text x="39.878" y="15.748" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="center-left">GND</text>
-<text x="43.942" y="4.826" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="center-left">GND</text>
-<text x="41.148" y="15.748" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="center-left">+5V</text>
-<text x="42.672" y="4.826" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="center-left">+5V</text>
-<wire x1="43.942" y1="4.318" x2="44.958" y2="3.302" width="0.1524" layer="26"/>
-<wire x1="39.878" y1="4.318" x2="38.862" y2="3.302" width="0.1524" layer="26"/>
-<wire x1="42.672" y1="4.572" x2="42.672" y2="4.318" width="0.1524" layer="26"/>
-<wire x1="39.878" y1="4.318" x2="39.878" y2="4.572" width="0.1524" layer="26"/>
-<wire x1="43.942" y1="4.318" x2="43.942" y2="4.572" width="0.1524" layer="26"/>
-<wire x1="42.672" y1="4.318" x2="42.926" y2="4.064" width="0.1524" layer="26"/>
-<wire x1="41.148" y1="4.572" x2="41.148" y2="4.318" width="0.1524" layer="26"/>
-<wire x1="41.148" y1="4.318" x2="40.894" y2="4.064" width="0.1524" layer="26"/>
-<wire x1="39.878" y1="16.002" x2="39.878" y2="16.256" width="0.1524" layer="26"/>
-<wire x1="39.878" y1="16.256" x2="39.116" y2="17.018" width="0.1524" layer="26"/>
-<wire x1="43.942" y1="16.002" x2="43.942" y2="16.256" width="0.1524" layer="26"/>
-<wire x1="43.942" y1="16.256" x2="44.704" y2="17.018" width="0.1524" layer="26"/>
-<wire x1="41.148" y1="16.002" x2="41.148" y2="16.256" width="0.1524" layer="26"/>
-<wire x1="41.148" y1="16.256" x2="40.894" y2="16.51" width="0.1524" layer="26"/>
-<wire x1="42.672" y1="16.002" x2="42.672" y2="16.256" width="0.1524" layer="26"/>
-<wire x1="42.672" y1="16.256" x2="42.926" y2="16.51" width="0.1524" layer="26"/>
+<text x="42.672" y="16.256" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="center-left">SDA</text>
+<text x="41.148" y="4.318" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="center-left">SDA</text>
+<text x="39.878" y="4.318" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="center-left">SCL</text>
+<text x="43.942" y="16.256" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="center-left">SCL</text>
+<text x="39.878" y="16.256" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="center-left">GND</text>
+<text x="43.942" y="4.318" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="center-left">GND</text>
+<text x="41.148" y="16.256" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="center-left">+5V</text>
+<text x="42.672" y="4.318" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="center-left">+5V</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
@@ -603,23 +587,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-1.27" y1="-5.207" x2="0.1905" y2="-5.207" width="0.127" layer="21"/>
 <wire x1="0.1905" y1="-5.207" x2="4.8895" y2="-5.207" width="0.127" layer="21"/>
 <wire x1="4.8895" y1="-5.207" x2="6.35" y2="-5.207" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-2.413" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="2.54" x2="6.35" y2="2.54" width="0.127" layer="21"/>
+<wire x1="6.35" y1="2.54" x2="6.35" y2="-2.413" width="0.127" layer="21"/>
 <wire x1="2.032" y1="-2.413" x2="2.032" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="2.032" y1="-3.175" x2="2.54" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-3.175" x2="3.048" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-3.175" x2="3.048" y2="-3.175" width="0.127" layer="21"/>
 <wire x1="3.048" y1="-3.175" x2="3.048" y2="-2.413" width="0.127" layer="21"/>
 <wire x1="-0.508" y1="-2.413" x2="-0.508" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="-0.508" y1="-3.175" x2="0" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="0" y1="-3.175" x2="0.508" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-0.508" y1="-3.175" x2="0.508" y2="-3.175" width="0.127" layer="21"/>
 <wire x1="0.508" y1="-3.175" x2="0.508" y2="-2.413" width="0.127" layer="21"/>
 <wire x1="4.572" y1="-2.413" x2="4.572" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="4.572" y1="-3.175" x2="5.08" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-3.175" x2="5.588" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="4.572" y1="-3.175" x2="5.588" y2="-3.175" width="0.127" layer="21"/>
 <wire x1="5.588" y1="-3.175" x2="5.588" y2="-2.413" width="0.127" layer="21"/>
 <wire x1="0.4445" y1="-13.843" x2="0.1905" y2="-13.589" width="0.127" layer="21" curve="-90"/>
 <wire x1="4.8895" y1="-13.589" x2="4.6355" y2="-13.843" width="0.127" layer="21" curve="-90"/>
-<rectangle x1="-0.254" y1="-3.175" x2="0.254" y2="0" layer="21"/>
-<rectangle x1="2.286" y1="-3.175" x2="2.794" y2="0" layer="21"/>
-<rectangle x1="4.826" y1="-3.175" x2="5.334" y2="0" layer="21"/>
 </package>
 </packages>
 <packages3d>
@@ -835,7 +816,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="J1" library="favorite" package="MOLEX-1X3" package3d_urn="urn:adsk.eagle:package:38064/1" value="" x="36.83" y="7.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="33.909" y="6.223" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="33.401" y="6.477" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="PROD_ID" value="CONN-08625" x="40.64" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SF_ID" value="PRT-08096" x="40.64" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="35.56" y="8.509" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
